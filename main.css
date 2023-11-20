@@ -1,0 +1,290 @@
+/* Everyting */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Logo resizing */
+a img {
+    max-width: 13em; /* Adjust the percentage as needed */
+    height: auto;
+    margin-bottom: .6em; /* Add padding below the image */
+}
+
+/* Subhead Rotation Styles */
+
+#journey {
+    font-style: italic;
+    transition: font-size 0.5s, font-style 0.5s, font-weight 0.5s;
+    font-size: 1.5em; /* Adjust the font size */
+    margin-bottom: .6em; /* Add padding below the image */
+}
+
+#journey.resilient {
+    font-style: italic;
+    font-size: 1.7em; /* Adjust the font size */
+}
+
+/* Add this style to your CSS */
+#journey .blue {
+    color: rgb(82, 157, 180);
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333; /* Change this to your desired background color */
+    text-align: center;
+}
+
+/* Navigation links */
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.nav-links li {
+    margin: 0 15px; /* Adjust the spacing between menu items */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; /* Change this to your desired text color */
+    font-weight: bold;
+    font-size: 14px; /* Change this to your desired font size */
+}
+
+.nav-links ul li a:hover {
+    color: rgb(82, 157, 180);
+}
+
+/* GIF/Animation */
+.Page1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: .6em; /* Adjust the top margin as needed */
+}
+
+.Page1-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding for the text as needed */
+}
+
+.Page1 img {
+    max-width: 50%; /* Adjust the maximum width of the image */
+}
+
+/* Note From Editor*/
+#mentalHealthText .blue {
+    color: rgb(82, 157, 180);
+}
+
+
+/* Read More */
+.read-more-link {
+    text-decoration: none; /* Remove default link underline */
+    color: inherit; /* Inherit text color from the parent */
+}
+
+.read-more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 20px 0; /* Adjust margin as needed */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: rgba(82, 157, 180, 0.8); /* Translucent blue background */
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.read-more-content {
+    max-width: calc(100% - 60px); /* Adjust the width based on the image size and spacing */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-photo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-photo img {
+    max-width: 50px; /* Adjust the size of the icon */
+}
+
+h2 {
+    font-size: 16px; /* Adjust font size as needed */
+    margin: 0;
+    color: #fff; /* Set font color to white */
+}
+
+/* hover */
+.read-more:hover {
+    opacity: 1; /* opaque on hover */
+}
+
+
+
+/*VOICES UNVEILED PAGE BREAK */
+
+        /* Columnist Headshots */
+
+        
+        .columnist {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .columnist-photo {
+            width: 23%; 
+            margin-bottom: 20px;
+            overflow: hidden; /* consistent rectangle size */
+            position: relative;
+        }
+        
+        .columnist-photo img {
+            max-width: 100%;
+            width: 100%; /* fill entire container */
+            height: auto; 
+            cursor: pointer;
+        }
+        
+        .columnist-column {
+            display: none;
+            width: 50%; /* Width it takes up screen*/
+            padding: 20px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100%;
+            background-color: #f4f4f4; 
+        }
+
+        .columnist-column img {
+            max-width: 50%; /* Headshot Size */
+            height: auto;
+        }
+        
+        .columnist-column h2, h3 {
+            margin: 0;
+            color: black;
+            padding: .4rem;
+    
+        }
+
+        .columnist-column p {
+            margin: 0;
+            color: black;
+            padding: .4rem 4rem;
+            text-align: justify;
+            background-color: #f4f4f4; 
+            
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media a {
+    color: rgb(82, 157, 180);
+    margin: 0 15px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 1100px) {
+    a img {
+        max-width: 20%; /* Adjust the percentage for smaller screens */
+    }
+
+    .Page1 {
+        flex-direction: column; /* Reverse the order for smaller screens */
+        text-align: center; /* Center-align text in smaller screens */
+    }
+
+    .Page1 img {
+        max-width: 100%; /* Make the image full-width in smaller screens */
+        margin-bottom: 1em; /* Add some margin between image and text */
+    }
+
+    .Page1-text {
+        text-align: left; /* Left-align text in smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
